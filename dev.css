@@ -1,0 +1,25 @@
+.list.full {
+    background-color: #fde986;
+}
+
+.list.overflown {
+    background-color: #f3565d;
+    animation: overflown-anim 0.3s infinite;
+}
+
+.card-short-id.hide {
+    display: block;
+    font-weight: bold;
+}
+
+@keyframes overflown-anim {
+    0% {
+        background-color: #fde986;
+    }
+    50% {
+        background-color: #f3565d;
+    }
+    100% {
+        background-color: #fde986;
+    }
+}

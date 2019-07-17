@@ -1,0 +1,15 @@
+{
+  "manifest_version": 2,
+  "name": "Trellofit",
+  "version": "1.1.5",
+
+  "description": "Tecnofit kanban extension for trello",
+
+  "content_scripts": [
+    {
+      "matches": ["*://*.trello.com/*"],
+      "js": ["dev.js"],
+      "css": ["dev.css"]
+    }
+  ]
+}
